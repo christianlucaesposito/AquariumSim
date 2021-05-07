@@ -67,19 +67,6 @@ JsonReader (Class)
 - addFishList(Aquarium aquarium, JSONObject jsonObject)
 - addFish(Aquarium aquarium, JSONObject jsonObject)
 
-## Update Notes
-NOTE: UML does not contain TextBasedCommandUI as it is an unused UI, that was initially created to show my project in
-phase 1. 
-
-My UML show that too many classes associations with Aquarium, even the GUI. I Would refactor so that there aren't as 
-many associations especially when GUI is also dependent on the classes that depend on the aquarium (even if it also 
-depends on aquarium itself). There is also a bidirectional association between ButtonCommand and GUI, which seems to 
-create coupling. If I had more time I would try to approach it differently. As well as I would separate the sound and
-music methods from GUI into its own class.
-
-I would create a superclass that contains an Aquarium any other information that UI needs to access in general,
-I would extend it in all the UI components, so they would have easy access to common states in model package.
-
 ## Sources
 - Implementation of persistence is based on JsonSerializationDemo, from CPSC 210 UBC.
 - Fish art from https://mastodon.art/@RAPIDPUNCHES/103569305236570185
