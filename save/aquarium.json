@@ -1,0 +1,33 @@
+{
+    "cleanness": 29,
+    "fishList": [
+        {
+            "growthTimer": 32,
+            "size": 2,
+            "hungerLevel": 5,
+            "name": "Pedro",
+            "status": 1
+        },
+        {
+            "growthTimer": 50,
+            "size": 1,
+            "hungerLevel": 2,
+            "name": "Tony",
+            "status": 1
+        },
+        {
+            "growthTimer": 50,
+            "size": 1,
+            "hungerLevel": 2,
+            "name": "Jim",
+            "status": 1
+        },
+        {
+            "growthTimer": 50,
+            "size": 1,
+            "hungerLevel": 2,
+            "name": "Frank",
+            "status": 1
+        }
+    ]
+}

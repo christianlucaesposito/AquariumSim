@@ -1,0 +1,19 @@
+{
+    "cleanness": 25,
+    "fishList": [
+        {
+            "growthTimer": 50,
+            "size": 1,
+            "hungerLevel": 2,
+            "name": "Penny",
+            "status": 1
+        },
+        {
+            "growthTimer": 15,
+            "size": 2,
+            "hungerLevel": 15,
+          "name": null,
+          "status": 7
+        }
+    ]
+}
