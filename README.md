@@ -10,6 +10,7 @@ I am interested in this project as it seems something fun to do! I enjoy video-g
 so I thought to combine both and make this application. 
 
 ## User Stories
+NOTE: The passtime button is to for demo! It allows passage of time to go faster :)
 
 Things I want to be able to do as a **user**:
 - As a user, I want to be able to add new fish to my aquarium
