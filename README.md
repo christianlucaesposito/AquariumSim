@@ -35,8 +35,8 @@ and my tank to get dirty.
 - As a user, I want to hear button sounds
 - As a user, I want to be able to mute sounds
 
-## Phase 4: Task 2
-I made my classes more robust by adding exceptions (IllegalFishException, IllegalAquariumException,
+## Update notes
+I made classes more robust by adding exceptions (IllegalFishException, IllegalAquariumException,
 IllegalDirectionException and OutOfBoundException). For both IllegalFishException and IllegalAquariumException 
 exceptions (used in constructor) it allowed me to identify when there is a corruption of data in persistence when 
 rebuilding the fish and/or aquarium. These exceptions are passed on until caught in the GUI.
@@ -66,7 +66,7 @@ JsonReader (Class)
 - addFishList(Aquarium aquarium, JSONObject jsonObject)
 - addFish(Aquarium aquarium, JSONObject jsonObject)
 
-## Phase 4: Task3
+## Update Notes
 NOTE: UML does not contain TextBasedCommandUI as it is an unused UI, that was initially created to show my project in
 phase 1. 
 
